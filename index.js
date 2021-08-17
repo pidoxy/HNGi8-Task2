@@ -1,7 +1,11 @@
 
-let fistName = "Emmanuel";
+let firstName = "Emmanuel";
 let lastName = "Idoko";
 
-let name = `${firstname} ${lastName}`;
+let name = `${firstName} ${lastName}`;
 
+const printName = () => {
 console.log(name);
+}
+
+printName();
